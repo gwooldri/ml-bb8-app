@@ -10,7 +10,7 @@ import Settings from '../../images/settings.svg';
 
 export default function Navbar() {
   return (
-    <div className='navbar navbar-expand-xl p-0'>
+    <div className='navbar fixed-top navbar-expand-xl p-0'>
       <div className='container-fluid align-items-center'>
         <a className='navbar-brand mt-2 mt-lg-0 pe-4' href='#'>
           <img src={Logo} height='30' alt='' loading='lazy' />

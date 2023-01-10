@@ -20,7 +20,7 @@
 }
 
 .sidebar-item {
-  border-radius: 3px;
+  /* border-radius: 3px; */
   transition: 0.3s;
 }
 
@@ -30,10 +30,11 @@
 
 .sidebar {
   background-color: white;
-  width: 80px;
+  width: 58px;
   height: 100vh;
   border-top: solid 4px hsl(217, 17%, 90%);
   border-radius: 6px;
+  padding-top: 54px;
 }
 
 .sidebar .material-symbols-outlined {

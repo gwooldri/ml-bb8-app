@@ -58,6 +58,7 @@ function Map() {
 
           {/* <Convoy convoy={convoyToDisplay} /> */}
           {/* <Resource /> */}
+
           {/* <NewTicket /> */}
 
           {/* <Position details={dataPerson} /> */}

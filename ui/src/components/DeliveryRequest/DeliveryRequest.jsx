@@ -26,16 +26,20 @@ function DeliveryRequest(props) {
             </ol>
           </nav>
           <div className='action-icons'>
-            <Minus strokeWidth={2} size={16} />
-            <Cross
-              className='request-close ms-3'
-              strokeWidth={2}
-              size={16}
-              id={props.id}
-              onClick={() =>
-                panelContext.removePanel({ type: 'request', id: props.id })
-              }
-            />
+            <div className='container-icon'>
+              <span class='material-symbols-outlined'>minimize</span>
+            </div>
+            <div className='container-icon'>
+              <span
+                class='material-symbols-outlined'
+                id={props.id}
+                onClick={() =>
+                  panelContext.removePanel({ type: 'request', id: props.id })
+                }
+              >
+                close
+              </span>
+            </div>
           </div>
         </div>
         <div className='row request-fields pb-3 mt-1 g-0'>

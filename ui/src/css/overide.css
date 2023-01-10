@@ -64,7 +64,7 @@ body {
 
 .icon-badge-sidebar {
   bottom: 18px;
-  left: 45px;
+  left: 35px;
 }
 
 .badge-container {
@@ -209,7 +209,7 @@ table {
 .material-symbols-outlined {
   color: #212427;
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .icon {
@@ -806,8 +806,8 @@ table tbody tr td {
   position: absolute;
   display: flex;
   justify-content: flex-end;
-  top: 0;
-  right: 80px;
+  top: 40px;
+  right: 58px;
   width: 100%;
 }
 
@@ -817,6 +817,7 @@ table tbody tr td {
 
 .description {
   font-family: 'Inter';
+  font-size: 14px;
 }
 
 table {

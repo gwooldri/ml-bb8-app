@@ -58,7 +58,7 @@ function Sidebar(props) {
                 <div className='icon-badge-sidebar'>23</div>
               </div>
               <div className='sidebar-label label-notifications text-center'>
-                Notifications
+                Notific...
               </div>
             </a>
           </li>
